@@ -26,14 +26,14 @@ function onMessageToEdwardSnowden (message) {
   }
 
   var text = message.text;
-  var anonymousUser = randomUsername();
-  var someColor = randomHexColor();
-  var anonymousIcon = 'http://placehold.it/80/' + someColor + '/'+ someColor;
+  var anonymousUser = 'edwardsnowden';
+  //var someColor = randomHexColor();
+  var anonymousIcon = 'https://upload.wikimedia.org/wikipedia/commons/6/60/Edward_Snowden-2.jpg';
 
   var response = {
-    text: text,
-    username: anonymousUser,
-    icon_url: anonymousIcon
+    text: text//,
+    //username: anonymousUser,
+    //icon_url: anonymousIcon
   };
 
   // post message to #random
